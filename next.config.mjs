@@ -1,4 +1,5 @@
 // next.config.mjs
+//added lint force
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
