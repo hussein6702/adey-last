@@ -7,12 +7,12 @@ import AnimatedSection from "../components/AnimatedSection";
 // --- 1. Product Data (excluding Truffles) ---
 const productData = [
   // White Chocolate
-  { category: "White Chocolate", name: "Lomi Cheesecake", description: "Lime Ganache on Biscoff Cream", imageName: "Lime.webp" },
+  { category: "White Chocolate", name: "Lomi Cheesecake", description: "Lime & Cream Cheese Ganache", imageName: "Lime.webp" },
   { category: "White Chocolate", name: "Matcha Latte", description: "Matcha & Moringa Ganache", imageName: "Matcha Moringa_.webp" },
   { category: "White Chocolate", name: "Ivory", description: "28% Plain White Chocolate", imageName: "White Plain.webp" },
   { category: "White Chocolate", name: "Cinnamon", description: "Ceylon Cinnamon Ganache", imageName: "Cinnamon.webp" },
   { category: "White Chocolate", name: "Crimson Cream", description: "Strawberry Ganache", imageName: "Crimson Cream.webp" },
-  { category: "White Chocolate", name: "Mango Lassi", description: "White Chocolate Mango Ganache", imageName: "Mango Lassi.webp" },
+  { category: "White Chocolate", name: "Mango Lassi", description: "White Chocolate & Mango Ganache", imageName: "Mango Lassi.webp" },
 
   // Milk Chocolate
   { category: "Milk Chocolate", name: "Qimem Chai Latte", description: "Cardamom, Cinnamon & Clove Ganache", imageName: "Chai.webp" },
