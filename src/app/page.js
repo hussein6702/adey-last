@@ -51,11 +51,11 @@ function HeroContent() {
           className="absolute left-1/2 top-[20%] -translate-x-1/2 -translate-y-1/2 md:top-[10%] md:translate-y-0"
         >
           <Image
-            src="/full_logo.svg"
+            src="/full-03.svg"
             alt="Chocolatier Adey Logo"
             width={300}
             height={300}
-            className="w-[70%] sm:w-[25%] md:w-[300px] lg:w-[350px]"
+            className="w-[100%] sm:w-[55%] md:w-[300px] lg:w-[350px]"
           />
         </motion.div>
 
@@ -280,7 +280,7 @@ triumphs — it is a quiet homage to Ethiopia and Africa as a whole
                 height={600}
                 className="mb-4 h-auto w-full object-contain max-h-[35vh] md:max-h-none"
               />
-              <h3 className="mt-4 text-2xl md:text-3xl font-crimson-text">Lomi Cheesecake</h3>
+              <h3 className="mt-4 text-2xl tracking-loose md:text-3xl font-crimson-text">Lomi Cheesecake</h3>
             </div>
             <div className="flex flex-col items-center p-8 ">
               <Image
@@ -361,7 +361,7 @@ triumphs — it is a quiet homage to Ethiopia and Africa as a whole
               </div>
               <div className="flex items-center mt-6">
                 <Clock className="mr-2" />
-                <span> Tuesday - Sunday 10am - 6pm (Closed on Mondays)</span>
+                <span> Tuesday - Sunday 10am - 6pm </span>
               </div>
               <div className="flex items-center mt-6">
                 <Phone className="mr-2" />
