@@ -195,50 +195,50 @@ export default function Home() {
       <ScrollingTextSection />
 
       <AnimatedSection extraHeight="min-h-[140vh]">
-        <div className="flex flex-col h-full px-4 py-10 overflow-x-hidden md:flex-row md:items-start md:py-20 md:px-30">
-          <div className="w-full shrink-0 md:w-[600px] flex justify-center">
+    <div className="flex flex-col h-full px-4 py-10 overflow-x-hidden md:flex-row md:items-start md:py-20 md:px-30">
+        <div className="w-full shrink-0 md:w-[600px] flex justify-center">
             <div className="w-full max-w-[450px] md:max-w-none">
-              <Image
-                src="/01.jpg"
-                alt="box"
-                width={300}
-                height={240}
-                className="object-cover w-full h-auto"
-              />
+                <Image
+                    src="/01.jpg"
+                    alt="box"
+                    width={300}
+                    height={240}
+                    className="object-cover w-full h-auto"
+                />
             </div>
-          </div>
+        </div>
 
-          <div className="w-full mt-12 md:w-1/2 md:ml-20 md:pl-8 md:mt-0">
+        {/* FIX: Changed md:w-1/2 (50%) to md:w-[45%] to make the text column narrower 
+            and better balance the content length with the image width.
+        */}
+        <div className="w-full mt-12 md:w-[45%] md:ml-20 md:pl-8 md:mt-0">
             <h1 className="text-6xl font-crimson-text">Our story</h1>
-<p className="text-[1.5rem] md:text-[1.5rem] mt-10 font-crimson-text">
-    Chocolatier Adey is a boutique chocolate atelier reimagining African
-    flavours & textures through the medium of chocolate.
-    <br /><br />
-    Hand-crafted in Addis Ababa, our creations blend refined European
-    techniques with bold, expressive ingredients from across our rich
-    continent. Each piece is a celebration of heritage, artistry, and
-    excellence.
-    <br /><br />
-    Chocolatier Adey was born from a simple desire to convey Ethiopia’s rich
-    history of craftsmanship and culinary heritage through the medium of
-    chocolate. What started in a basement kitchen in 2017 is now a growing
-    atelier, where every piece is made by hand with care, skill, and artistic
-    expression. We are self-taught chocolatiers inspired by refined European
-    techniques, the rich tapestry of African cultures, and a passion for
-    creating beauty by bridging the two.
-    <br /><br />
-    Inspired by a new generation of chefs, artists, designers, and entrepreneurs across Ethiopia, Africa & the diaspora, our story is fuelled by the belief that heritage, when met with innovation, can create something timeless.
-    At Chocolatier Adey, each piece is an embodiment of the resilience, creativity & ambition of the African Renaissance — a celebration of what has been, what is, and what is yet to come.
-    <br /><br />
-    Our chocolates are not just an indulgent luxury; they are an invitation to savour & take part in the story of a continent reinventing itself anew.
-    </p>
-
-
-          </div>
-          
+            <p className="text-[1.5rem] md:text-[1.5rem] mt-10 font-crimson-text">
+                Chocolatier Adey is a boutique chocolate atelier reimagining African
+                flavours & textures through the medium of chocolate.
+                <br /><br />
+                Hand-crafted in Addis Ababa, our creations blend refined European
+                techniques with bold, expressive ingredients from across our rich
+                continent. Each piece is a celebration of heritage, artistry, and
+                excellence.
+                <br /><br />
+                Chocolatier Adey was born from a simple desire to convey Ethiopia’s rich
+                history of craftsmanship and culinary heritage through the medium of
+                chocolate. What started in a basement kitchen in 2017 is now a growing
+                atelier, where every piece is made by hand with care, skill, and artistic
+                expression. We are self-taught chocolatiers inspired by refined European
+                techniques, the rich tapestry of African cultures, and a passion for
+                creating beauty by bridging the two.
+                <br /><br />
+                Inspired by a new generation of chefs, artists, designers, and entrepreneurs across Ethiopia, Africa & the diaspora, our story is fuelled by the belief that heritage, when met with innovation, can create something timeless.
+                At Chocolatier Adey, each piece is an embodiment of the resilience, creativity & ambition of the African Renaissance — a celebration of what has been, what is, and what is yet to come.
+                <br /><br />
+                Our chocolates are not just an indulgent luxury; they are an invitation to savour & take part in the story of a continent reinventing itself anew.
+            </p>
         </div>
         
-      </AnimatedSection>
+    </div>
+</AnimatedSection>
       
 <AnimatedSection extraHeight="min-h-[140vh]">
   
@@ -281,57 +281,65 @@ export default function Home() {
 
       {/* Bonbons Section */}
       <AnimatedSection extraHeight="min-h-[140vh]" id="bonbons">
-        <div className={`w-full ${secondary} px-6 py-32 text-white`}>
-          <h2 className="mt-10 text-5xl text-center font-crimson-text sm:text-5xl md:text-7xl">
+    {/* Assuming 'secondary' is a defined variable or prop */}
+    <div className={`w-full ${secondary} px-6 py-32 text-white`}>
+        <h2 className="mt-10 text-5xl text-center font-crimson-text sm:text-5xl md:text-7xl">
             Bonbons, bars and beyond
-          </h2>
-          <p className="max-w-4xl mx-auto mt-4 text-base text-center sm:text-lg md:text-xl font-lato">
+        </h2>
+        <p className="max-w-4xl mx-auto mt-4 text-base text-center sm:text-lg md:text-xl font-lato">
             From classic truffles to flavour-forward bonbons, every collection reflects
             our passion for beauty, balance, and storytelling.
-          </p>
-          <div className="grid w-full grid-cols-1 gap-10 mx-auto mt-16 max-w-7xl md:grid-cols-3">
-            <div className="flex flex-col items-center p-8 ">
-              <Image
-                src="/Sesame.webp"
-                alt="Lime"
-                width={800}
-                height={600}
-                className="mb-4 h-auto w-full object-contain max-h-[35vh] md:max-h-none"
-              />
-              <h3 className="mt-4 text-2xl md:text-3xl font-crimson-text">Sesame Praliné</h3>
+        </p>
+        <div className="grid w-full grid-cols-1 gap-10 mx-auto mt-16 max-w-7xl md:grid-cols-3">
+    
+            {/* Product 1: Sesame Praliné - w-3/4 mx-auto scales it down */}
+            <div className="flex flex-col items-center w-3/4 p-8 mx-auto">
+                <Image
+                    src="/Sesame.webp"
+                    alt="Lime"
+                    width={600}
+                    height={600}
+                    className="mb-4 h-auto w-full object-contain max-h-[35vh] md:max-h-none"
+                />
+                <h3 className="mt-4 text-2xl md:text-3xl font-crimson-text">Sesame Praliné</h3>
             </div>
-            <div className="flex flex-col items-center p-8 ">
-              <Image
-                src="/Lime.webp"
-                alt="Metaxa"
-                width={800}
-                height={600}
-                className="mb-4 h-auto w-full object-contain max-h-[35vh] md:max-h-none"
-              />
-              <h3 className="mt-4 text-2xl tracking-loose md:text-3xl font-crimson-text">Lomi Cheesecake</h3>
+    
+            {/* Product 2: Lomi Cheesecake - w-3/4 mx-auto scales it down */}
+            <div className="flex flex-col items-center w-3/4 p-8 mx-auto">
+                <Image
+                    src="/Lime.webp"
+                    alt="Metaxa"
+                    width={800}
+                    height={600}
+                    className="mb-4 h-auto w-full object-contain max-h-[35vh] md:max-h-none"
+                />
+                <h3 className="mt-4 text-2xl tracking-loose md:text-3xl font-crimson-text">Lomi Cheesecake</h3>
             </div>
-            <div className="flex flex-col items-center p-8 ">
-              <Image
-                src="/Caramel Crunch.webp"
-                alt="Sesame"
-                width={800}
-                height={600}
-                className="mb-4 h-auto w-full object-contain max-h-[35vh] md:max-h-none"
-              />
-              <h3 className="mt-4 text-2xl md:text-3xl font-crimson-text">Caramel Crunch</h3>
+    
+            {/* Product 3: Caramel Crunch - w-3/4 mx-auto scales it down */}
+            <div className="flex flex-col items-center w-3/4 p-8 mx-auto">
+                <Image
+                    src="/Caramel Crunch.webp"
+                    alt="Sesame"
+                    width={800}
+                    height={600}
+                    className="mb-4 h-auto w-full object-contain max-h-[35vh] md:max-h-none"
+                />
+                <h3 className="mt-4 text-2xl md:text-3xl font-crimson-text">Caramel Crunch</h3>
             </div>
-          </div>
-          <div className="mt-16 text-center">
-            <Link
-              href="/bonbons"
-              className="inline-flex items-center gap-2 text-xl italic duration-300 ease-out md:text-2xl font-lato hover:translate-x-5 group"
-            >
-              View collections
-              <span className="transition-transform duration-300 ease-out group-hover:translate-x-1">→</span>
-            </Link>
-          </div>
+    
         </div>
-      </AnimatedSection>
+        <div className="mt-16 text-center">
+            <Link
+                href="/bonbons"
+                className="inline-flex items-center gap-2 text-xl italic duration-300 ease-out md:text-2xl font-lato hover:translate-x-5 group"
+            >
+                View collections
+                <span className="transition-transform duration-300 ease-out group-hover:translate-x-1">→</span>
+            </Link>
+        </div>
+    </div>
+</AnimatedSection>
 
       {/* High2 Section */}
       <AnimatedSection extraHeight="min-h-[140vh]" id="gift">
