@@ -245,7 +245,7 @@ export default function Home() {
     <div className="max-w-4xl px-4 py-10 mx-auto md:py-20 md:px-20">
       <div className="flex justify-center mb-12">
             <img 
-                src="/brownlogo.svg" 
+                src="/brownLogo.svg" 
                 alt="Chocolatier Adey Logo" 
                 className="w-full h-auto max-w-xs"
             />
