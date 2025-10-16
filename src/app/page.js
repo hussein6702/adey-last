@@ -210,46 +210,74 @@ export default function Home() {
 
           <div className="w-full mt-12 md:w-1/2 md:ml-20 md:pl-8 md:mt-0">
             <h1 className="text-6xl font-crimson-text">Our story</h1>
-            <p className="text-[1.5rem] mt-10 leading-normal md:text-[1.2rem] font-crimson-text md:mt-10">
-              Chocolatier Adey is a boutique chocolate atelier reimagining African
-              flavours & textures through the medium of chocolate.
-              <br /><br />
-              Hand-crafted in Addis Ababa, our creations blend refined European
-              techniques with bold, expressive ingredients from across our rich
-              continent. Each piece is a celebration of heritage, artistry, and
-              excellence.
-              <br /><br />
-              Chocolatier Adey was born from a simple desire to convey Ethiopia’s rich
-              history of craftsmanship and culinary heritage through the medium of
-              chocolate. What started in a basement kitchen in 2017 is now a growing
-              atelier, where every piece is made by hand with care, skill, and artistic
-              expression. We are self-taught chocolatiers inspired by refined European
-              techniques, the rich tapestry of African cultures, and a passion for
-              creating beauty by bridging the two. Our name, Adey, honours the flower
-              that marks the Ethiopian New Year, symbolising the renewal and resurgence
-              of African craftsmanship on the global stage. This is chocolate with a
-              point of view — rooted in place, crafted for the world
-              <br /><br /> </p>
+<p className="text-[1.5rem] md:text-[1.5rem] mt-10 font-crimson-text">
+    Chocolatier Adey is a boutique chocolate atelier reimagining African
+    flavours & textures through the medium of chocolate.
+    <br /><br />
+    Hand-crafted in Addis Ababa, our creations blend refined European
+    techniques with bold, expressive ingredients from across our rich
+    continent. Each piece is a celebration of heritage, artistry, and
+    excellence.
+    <br /><br />
+    Chocolatier Adey was born from a simple desire to convey Ethiopia’s rich
+    history of craftsmanship and culinary heritage through the medium of
+    chocolate. What started in a basement kitchen in 2017 is now a growing
+    atelier, where every piece is made by hand with care, skill, and artistic
+    expression. We are self-taught chocolatiers inspired by refined European
+    techniques, the rich tapestry of African cultures, and a passion for
+    creating beauty by bridging the two.
+    <br /><br />
+    Inspired by a new generation of chefs, artists, designers, and entrepreneurs across Ethiopia, Africa & the diaspora, our story is fuelled by the belief that heritage, when met with innovation, can create something timeless.
+    At Chocolatier Adey, each piece is an embodiment of the resilience, creativity & ambition of the African Renaissance — a celebration of what has been, what is, and what is yet to come.
+    <br /><br />
+    Our chocolates are not just an indulgent luxury; they are an invitation to savour & take part in the story of a continent reinventing itself anew.
+    </p>
 
-                      <h2 className="text-4xl font-crimson-text">Our Name</h2> <br/>
-<p className="font-crimson-text text-[1.2rem]">
-Adey is the name of a bright yellow spring flower (Bidens macroptera) that is native to
-Ethiopia and symbolises renewal and growth—reflecting the budding promise of Ethiopia &
-Africa blossoming into a beacon of excellence on the global stage.<br/> <br/>
-</p>
-
-            <h2 className="text-4xl font-crimson-text">Our Logo</h2> <br/>
-            <p className="font-crimson-text text-[1.2rem]">
-
-A visual representation of the Akan proverb “Nea Onnim No Sua A, Ohu” or “One who
-does not know, can know through learning”, it speaks to our self-taught beginnings, and
-the resourcefulness of a continent that turns scarcity into artistry, and challenges into
-triumphs — it is a quiet homage to Ethiopia and Africa as a whole
-            </p>
 
           </div>
+          
         </div>
+        
       </AnimatedSection>
+      
+<AnimatedSection extraHeight="min-h-[140vh]">
+  
+    <div className="max-w-4xl px-4 py-10 mx-auto md:py-20 md:px-20">
+      <div className="flex justify-center mb-12">
+            <img 
+                src="/brownlogo.svg" 
+                alt="Chocolatier Adey Logo" 
+                className="w-full h-auto max-w-xs"
+            />
+        </div>
+        <div>
+            <div className="mb-12">
+                <h2 className="mb-4 text-3xl md:text-4xl font-crimson-text">Our Name</h2>
+                <p className="text-[1.25rem] md:text-[1.25rem] font-crimson-text">
+                    Our name, Adey, honours the flower that marks the Ethiopian New Year, symbolising the renewal and resurgence of African craftsmanship on the global stage. 
+                    Reflecting the budding promise of Ethiopia & Africa blossoming into a beacon of excellence on the global stage, this is chocolate with a point of view — rooted in place, crafted for the world.
+                </p>
+            </div>
+            
+            <div className="mb-12">
+                <h2 className="mb-4 text-3xl md:text-4xl font-crimson-text">Our Logo</h2>
+                <p className="text-[1.25rem] md:text-[1.25rem] font-crimson-text">
+                    A visual representation of the Akan proverb “Nea Onnim No Sua A, Ohu” or “One who does not know, can know through learning”, it speaks to our self-taught beginnings, and the resourcefulness of a continent that turns scarcity into artistry, and challenges into triumphs — it is a quiet homage to Ethiopia and Africa as a whole.
+                </p>
+            </div>
+            
+            <div>
+                <h2 className="mb-4 text-3xl md:text-4xl font-crimson-text">Our Mission & Vision</h2>
+                <p className="text-[1.25rem] md:text-[1.25rem] font-crimson-text">
+                    From the outset, our mission has been to create world-class chocolates that celebrate Ethiopia’s culinary heritage and reintroduce it to a global audience through the medium of chocolate.
+                    <br /><br />
+                    As we look to the future, our vision is clear: to become Africa’s premier chocolatier & chocolate maker, with a wholly integrated value chain, from cultivation and fermentation, to manufacturing and retail.
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</AnimatedSection>
 
       {/* Bonbons Section */}
       <AnimatedSection extraHeight="min-h-[140vh]" id="bonbons">
@@ -319,7 +347,7 @@ triumphs — it is a quiet homage to Ethiopia and Africa as a whole
           </div>
           <div className="w-full md:ml-20 md:w-1/2 md:pl-8">
             <h1 className="mt-10 text-6xl font-crimson-text">Make an Impression that lasts</h1>
-            <p className="text-[1.5rem] mt-10 leading-normal md:text-[1.5rem] font-crimson-text">
+            <p className="text-[1.5rem]  leading-normal md:text-[1.5rem] font-crimson-text">
               <br /><br />
               Whether you’re thanking a client or celebrating a milestone, our curated chocolate gifts speak volumes. Personalization and branding options available. <br /><br/>
               We help our corporate clients leave lasting impressions. Whether you’re gifting for clients, executives, or events, we offer beautiful, customisable chocolate gifts that convey refined taste, gratitude, and brand warmth. <br /><br/>
@@ -332,6 +360,7 @@ triumphs — it is a quiet homage to Ethiopia and Africa as a whole
           </div>
         </div>
       </AnimatedSection>
+   
 
       {/* High3 Section */}
       <AnimatedSection extraHeight="min-h-[140vh]" id="visit">
