@@ -9,7 +9,7 @@ export const metadata = {
   title: "Adey Chocolatier",
   description: "Handcrafted chocolates made in Ethiopia",
   icons: {
-    icon: "/brownlogo.svg", // Path relative to /public
+    icon: "/brownLogo.svg", // Path relative to /public
   },
 };
 
