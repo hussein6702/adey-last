@@ -214,13 +214,6 @@ export default function Home() {
         <div className="w-full mt-12 md:w-[45%] md:ml-20 md:pl-8 md:mt-0">
             <h1 className="text-6xl font-crimson-text">Our story</h1>
             <p className="text-[1.5rem] md:text-[1.5rem] mt-10 font-crimson-text">
-                Chocolatier Adey is a boutique chocolate atelier reimagining African
-                flavours & textures through the medium of chocolate.
-                <br /><br />
-                Hand-crafted in Addis Ababa, our creations blend refined European
-                techniques with bold, expressive ingredients from across our rich
-                continent. Each piece is a celebration of heritage, artistry, and
-                excellence.
                 <br /><br />
                 Chocolatier Adey was born from a simple desire to convey Ethiopia’s rich
                 history of craftsmanship and culinary heritage through the medium of
@@ -230,10 +223,10 @@ export default function Home() {
                 techniques, the rich tapestry of African cultures, and a passion for
                 creating beauty by bridging the two.
                 <br /><br />
-                Inspired by a new generation of chefs, artists, designers, and entrepreneurs across Ethiopia, Africa & the diaspora, our story is fuelled by the belief that heritage, when met with innovation, can create something timeless.
-                At Chocolatier Adey, each piece is an embodiment of the resilience, creativity & ambition of the African Renaissance — a celebration of what has been, what is, and what is yet to come.
-                <br /><br />
-                Our chocolates are not just an indulgent luxury; they are an invitation to savour & take part in the story of a continent reinventing itself anew.
+               
+                Our chocolates are not just an indulgent luxury; they are an invitation to savour & take part in the story of a continent reinventing itself anew. 
+                 At Chocolatier Adey, each piece is an embodiment of the resilience, creativity & ambition of the African Renaissance — a celebration of what has been, what is, and what is yet to come.
+                
             </p>
         </div>
         
