@@ -214,7 +214,6 @@ export default function Home() {
         <div className="w-full mt-12 md:w-[45%] md:ml-20 md:pl-8 md:mt-0">
             <h1 className="text-6xl font-crimson-text">Our story</h1>
             <p className="text-[1.5rem] md:text-[1.5rem] mt-10 font-crimson-text">
-                <br /><br />
                 Chocolatier Adey was born from a simple desire to convey Ethiopia’s rich
                 history of craftsmanship and culinary heritage through the medium of
                 chocolate. What started in a basement kitchen in 2017 is now a growing
@@ -224,8 +223,8 @@ export default function Home() {
                 creating beauty by bridging the two.
                 <br /><br />
                
-                Our chocolates are not just an indulgent luxury; they are an invitation to savour & take part in the story of a continent reinventing itself anew. 
                  At Chocolatier Adey, each piece is an embodiment of the resilience, creativity & ambition of the African Renaissance — a celebration of what has been, what is, and what is yet to come.
+                Our chocolates are not just an indulgent luxury; they are an invitation to savour & take part in the story of a continent reinventing itself anew. 
                 
             </p>
         </div>
