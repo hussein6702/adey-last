@@ -4,13 +4,18 @@ import "./globals.css";
 import Footer from "@/app/components/Footer";
 import Navbar from "@/app/components/Navbar";
 
-// ✅ Use Next.js metadata API properly
+// ✅ Metadata with both SVG + PNG for full coverage
 export const metadata = {
   title: "Adey Chocolatier",
   description: "Handcrafted chocolates made in Ethiopia",
   icons: {
-    icon: "/brownLogo.svg", // Path relative to /public
+    icon: [
+      { url: "/brownLogo.svg", type: "image/svg+xml" },          // sharp SVG for modern browsers
+      { url: "/brownLogo.png", type: "image/png", sizes: "180x180" }, // PNG fallback for Safari, Google, etc.
+    ],
+    apple: "/brownLogo.png", // iOS home screen icon
   },
+  manifest: "/manifest.json", // optional (for PWA or SEO richness)
 };
 
 export default function RootLayout({ children }) {
